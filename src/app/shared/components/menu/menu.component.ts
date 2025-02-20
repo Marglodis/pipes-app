@@ -37,8 +37,9 @@ ngOnInit() {
             label: 'Pipes personalizados',
             icon: 'pi pi-cog',
             items: [{
-                    label: 'Otro elemento',
+                    label: 'Custom pipes',
                     icon: 'pi pi-fw pi-refresh',
+                    routerLink: '/custom'
                 },
                 {
                     label: 'Redo',
